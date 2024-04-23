@@ -86,5 +86,5 @@ app.post('/login', async (req, res) => {
   
   //Server Start
    app.listen(port, () => {
-    console.log(`Example app listening on port ${port}`)
+    console.log(`SplashCoach backend server is started on port ${port}`)
   })
