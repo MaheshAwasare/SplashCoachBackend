@@ -9,7 +9,7 @@ const port = 4000;
 // Middleware to parse JSON bodies
 app.use(express.json());
 app.get('/', (req, res) => {
-    res.send('Hello from SquashBackend Server!');
+    res.send('Hello from SplashCoach Server!');
   });
 
 
